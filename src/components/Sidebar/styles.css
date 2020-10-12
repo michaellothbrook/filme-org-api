@@ -1,0 +1,13 @@
+/* The component style is inserted here. */
+nav.sidebar {
+  position: fixed;
+  left: -250px;
+  padding: 20px;
+  background-color: #666;
+}
+
+nav.sidebar.active {
+  left: 0;
+  transition: all 0.7 ease;
+  padding: 0;
+}
